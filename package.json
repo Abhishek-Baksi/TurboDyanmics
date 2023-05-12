@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"node start",
+    "start": "node start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Abhishek-Baksi/backendOfProject1/issues"
   },
-  "homepage": "https://github.com/Abhishek-Baksi/backendOfProject1#readme"
+  "homepage": "https://github.com/Abhishek-Baksi/backendOfProject1#readme",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
 }
