@@ -798,5 +798,28 @@
                 "actualPrice": 895
             }
         ]
-    }
+    },
+    "brand": {
+    "name": "Samsung",
+    "models": [
+      {
+        "name": "Galaxy S21",
+        "imgLink": "https://example.com/galaxy-s21-img.jpg",
+        "features": ["5G connectivity", "Snapdragon 888 chipset", "120Hz display"],
+        "price": 799
+      },
+      {
+        "name": "Galaxy Note 20",
+        "imgLink": "https://example.com/galaxy-note-20-img.jpg",
+        "features": ["S Pen support", "Exynos 990 chipset", "60Hz display"],
+        "price": 999
+      },
+      {
+        "name": "Galaxy A52",
+        "imgLink": "https://example.com/galaxy-a52-img.jpg",
+        "features": ["4G connectivity", "Snapdragon 720G chipset", "90Hz display"],
+        "price": 399
+      }
+    ]
+  }
 }
