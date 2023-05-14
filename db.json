@@ -801,9 +801,11 @@
     },
     "brands": [
         {
+            "id": 1,
             "name": "Samsung",
             "models": [
                 {
+                    "id": 1,
                     "name": "Galaxy S21",
                     "imgLink": "https://example.com/galaxy-s21-img.jpg",
                     "features": [
@@ -814,6 +816,7 @@
                     "price": 799
                 },
                 {
+                    "id": 2,
                     "name": "Galaxy Note 20",
                     "imgLink": "https://example.com/galaxy-note-20-img.jpg",
                     "features": [
@@ -824,6 +827,7 @@
                     "price": 999
                 },
                 {
+                    "id": 3,
                     "name": "Galaxy A52",
                     "imgLink": "https://example.com/galaxy-a52-img.jpg",
                     "features": [
@@ -836,26 +840,30 @@
             ]
         },
         {
+            "id": 2,
             "name": "Apple",
             "models": [
                 {
-                    "name": "iPhone 13",
-                    "imgLink": "https://example.com/iphone-13-img.jpg",
+                    "id": 1,
+                    "name": "iPhone 12",
+                    "imgLink": "https://example.com/iphone-12-img.jpg",
                     "features": [
                         "5G connectivity",
-                        "A15 Bionic chipset",
-                        "120Hz display"
+                        "A14 Bionic chipset",
+                        "Super Retina XDR display"
                     ],
                     "price": 799
                 },
                 {
-                    "name": "iPhone 12",
-                    "imgLink": "https://example.com/iphone-12-img.jpg",
+                    "id": 2,
+                    "name": "iPhone SE",
+                    "imgLink": "https://example.com/iphone-se-img.jpg",
                     "features": [
-                        "A14 Bionic chipset",
-                        "60Hz display"
+                        "4G connectivity",
+                        "A13 Bionic chipset",
+                        "Retina HD display"
                     ],
-                    "price": 699
+                    "price": 399
                 }
             ]
         }
